@@ -4,6 +4,8 @@ Authors: Sai Kiran Maddela and Vivek Ramanathan
 
 Last Updated: May 9, 2022
 
+<img src="media/readme.png" alt="drawing" width="150" style="float: right;"/>
+
 ## RL Implementations
 
 We present our implementations of Reinforcement Learning algorithms that learn to play the Flappy Bird game. Please see the corresponding report for more details about the Flappy Bird state space, action space, and choices made while developing these algorithm implementations.
