@@ -114,7 +114,7 @@ for episode in range(100000):
 
     # Code to save files
     if episode % 10000 == 0:
-        with open('mc_pkl/Q_0.pkl','wb') as f: pkl.dump(Q, f)
-        with open('mc_pkl/C_0.pkl','wb') as f: pkl.dump(C, f)
-        with open('mc_pkl/mean_0.pkl','wb') as f: pkl.dump(mean, f)
-        with open('mc_pkl/max_0.pkl','wb') as f: pkl.dump(max_s, f)
+        with open('mc_Q_0.pkl','wb') as f: pkl.dump(Q, f)
+        with open('mc_C_0.pkl','wb') as f: pkl.dump(C, f)
+        with open('mc_mean_0.pkl','wb') as f: pkl.dump(mean, f)
+        with open('mc_max_0.pkl','wb') as f: pkl.dump(max_s, f)

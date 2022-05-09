@@ -1,3 +1,5 @@
+# Sai Kiran Maddela and Vivek Ramanathan
+
 from ple.games.flappybird import FlappyBird
 from ple import PLE
 import numpy as np
@@ -45,6 +47,7 @@ pipes_passed = [0]*num_episodes
 Q = np.random.rand(max_vert - min_vert, max_horiz - min_horiz, max_vel - min_vel, 2)
 max_score = 0
 
+# Code follows method outline in Sutton book
 while episode < num_episodes:
     while not p.game_over():
         pipes_passed[episode] = game.pipes_passed

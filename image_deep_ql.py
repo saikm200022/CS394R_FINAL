@@ -1,3 +1,6 @@
+# Sai Kiran Maddela, Vivek Ramanathan
+# CS394R - Reinforcement Learning Final Project
+
 from ple import PLE
 import numpy as np
 import random
@@ -99,10 +102,9 @@ iter = 0
 episode = 0
 score = 0
 while True:
+    print("Max Score so far: ", score)
     while not p.game_over():
         score = max(score, game.pipes_passed)
-        if iter % 10:
-          print("SCORE: ", score)
 
         # Get grayscale image
         s_t = p.getScreenGrayscale()

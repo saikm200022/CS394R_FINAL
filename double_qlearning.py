@@ -105,9 +105,9 @@ for episode in range(100000):
 
     # Code to save progress
     if episode % 10000 == 0:
-        with open('results/double_q/Q1_avg.pkl','wb') as f: pkl.dump(Q1, f)
-        with open('results/double_q/Q2_avg.pkl','wb') as f: pkl.dump(Q2, f)
-        with open('results/double_q/max_avg.pkl','wb') as f: pkl.dump(max_s, f)
-        with open('results/double_q/mean_avg.pkl','wb') as f: pkl.dump(mean_score, f)
+        with open('double_q_Q1_avg.pkl','wb') as f: pkl.dump(Q1, f)
+        with open('double_q_Q2_avg.pkl','wb') as f: pkl.dump(Q2, f)
+        with open('double_q_max_avg.pkl','wb') as f: pkl.dump(max_s, f)
+        with open('double_q_mean_avg.pkl','wb') as f: pkl.dump(mean_score, f)
     
     print("GAME: ", game_id, "Score: ", game_score, "Max: ", max_score)

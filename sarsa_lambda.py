@@ -118,9 +118,9 @@ for episode in range(num_episodes):
 
     # Store pickle files
     if episode % 1000 == 0:
-        with open('./results/sarsa_l/w___8.pkl','wb') as f: pkl.dump(w, f)
-        with open('./results/sarsa_l/max___8.pkl','wb') as f: pkl.dump(max_s, f)
-        with open('./results/sarsa_l/mean___8.pkl','wb') as f: pkl.dump(mean_s, f)
+        with open('sarsa_l_w.pkl','wb') as f: pkl.dump(w, f)
+        with open('sarsa_l_max.pkl','wb') as f: pkl.dump(max_s, f)
+        with open('sarsa_l_mean.pkl','wb') as f: pkl.dump(mean_s, f)
 
 
     print("Game", episode, "Current: ", curr_score, "Max: ", max_score)
