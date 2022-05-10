@@ -8,7 +8,7 @@ Last Updated: May 9, 2022
 
 ## RL Implementations
 
-We present our implementations of Reinforcement Learning algorithms that learn to play the Flappy Bird game. Please see the corresponding report for more details about the Flappy Bird state space, action space, and choices made while developing these algorithm implementations.
+We present our implementations of Reinforcement Learning algorithms that learn to play the Flappy Bird game. Please see the corresponding report for more details about the Flappy Bird state space, action space, and choices made while developing these algorithm implementations. The game emulator we used and its corresponding user and installation documentation can be found [here](https://github.com/ntasfi/PyGame-Learning-Environment).
 
 Every implementation described below trains the algorithm for a specified amount of episodes (this varies per file and can be easily changed) and, since these are tabular methods, saves the final Q matrix learned to a serialized ".pkl" file. This Q matrix then contains the value approximations for each state-action pair, and can then be run or validated over several runs.
 
