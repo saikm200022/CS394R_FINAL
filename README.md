@@ -109,3 +109,7 @@ To start learning using a one-step actor-critic method, execute the following co
 ```
 python actor_critic.py
 ```
+
+### Note
+
+The .pkl files we used in our experiments are too large for GitHub due to the size of our state space (> 100 MB each). However, we can provide these .pkl files on request. 
